@@ -122,6 +122,16 @@ function move_right(){
 }
 
 
+//微信
+$(".wx,.weixin").hover(
+	function(){
+		$(this).find("img").show();
+	},
+	function(){
+		$(this).find("img").hide();
+	}
+)
+
 
 
 

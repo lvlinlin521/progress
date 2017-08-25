@@ -23,7 +23,7 @@
 .lvHeaderInner>ul>li{
 	float:left;
 	line-height:37px;
-	margin:0 0 0 30px;
+	margin:0 30px 0 30px;
 	
 }
 .lvHeaderInner>ul>li>a{
@@ -424,7 +424,7 @@
 .lvHidden{
 	width:302px;
 	height:359px;
-	display:none;
+	/*display:none;*/
 }
 
 .lvShow{
@@ -625,6 +625,10 @@
 	height:231px;
 	float:left;
 	margin-left:23px;
+}
+.lvBeautifulB img{
+	width:205px;
+	height:205px;
 }
 .lvBgt{
 	background: url(../img/img_my/lvBgt.jpg) no-repeat;
