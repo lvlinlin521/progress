@@ -1,0 +1,806 @@
+.lvWrap{
+	width:100%;
+	min-width:1130px;
+}
+/*header start*/
+.lvHeader{
+	width:100%;
+	height:40px;
+	background:#414141;
+	border-bottom: 1px solid #8d8d8d;
+}
+.lvHeaderInner{
+	width:1176px;
+	height:100%;
+	margin:auto;
+}
+.lvHeaderInner>ul{
+	float:left;
+}
+
+.lvHeaderInner>ul>li{
+	float:left;
+	line-height:37px;
+	margin:0 0 0 30px;
+	
+}
+.lvHeaderInner>ul>li>a{
+	color:#fff;
+	font-size:14px;
+	display:inline-block;
+	text-align: center;
+
+}
+.lvHeaderInner>ul>li:hover a{
+	color:#FAB3AC;
+}
+.lvHeaderInner>ul>li:hover{
+	border-bottom:2px solid red;
+}
+.lvZv{
+	background:#ef6473;
+	width:115px;
+	height:40px;
+	float:left;
+	line-height: 37px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 14px;
+	color:#fff;
+}
+.lvZv:hover{
+	background:#ED287C;
+	color:#fff;
+	/*border-bottom: none;*/
+}
+.lvSear{
+	width:106px;
+	height:17px;
+	background-color:#6d6d6d;
+	border-radius:25px;
+	float:right;
+	border:1px solid #727272;
+	margin-top:11px;
+	outline: none;
+	background-image:url(../img/img-index/search.png);
+	background-repeat: no-repeat;
+	background-position:left -2px;
+	background-size:19px 20px;
+}
+/*header end*/
+.lvHead{
+	width:100%;
+	height:4px;
+	background: #eaeaea;
+}
+
+/*top_bottom start*/
+.jx{
+	float: left;
+}
+.top_bottom {
+    width: 100%;
+    margin: 30px auto 0px;
+    background: url(../img/img-index/jxLogo.jpg) center 10px no-repeat;
+    max-width: 1398px;
+    min-width: 1045px;
+}
+.top_contact_login {
+    padding-top: 25px;
+    padding-bottom: 12px;
+    width: 1032px;
+    margin: 0 auto;
+}
+.top_contact_login a {
+    display: inline-block;
+    color: #000;
+    font-size: 12px;
+    height: 13px;
+    line-height: 13px;
+    width: 34px;
+    text-align: center;
+    vertical-align: middle;
+}
+.top_contact_login a.top_login {
+    border-right: 1px solid #000;
+    margin-top: -11px;
+    vertical-align: middle;
+}
+a.a_bg {
+    height: 30px;
+    width: 26px;
+    background: url(../img/img-index/top_tubiao.jpg) no-repeat;
+    margin-right: 11px;
+}
+a.wb_sina {
+    background-position: -174px -91px;
+}
+a.wb_tencent {
+    background-position: -174px -60px;
+}
+a.wx {
+    background-position: -174px -30px;
+    *background-position: -174px -26px;
+    position:relative;
+    z-index:99;
+}
+a.wx img{
+    position:absolute;
+    top:24px;
+    left:-67px;
+    display:none;
+}
+a.app_brides {
+    background-position: -174px 0px;
+}
+a.wb_sina:hover {
+    background-position: 0px -91px;
+}
+.wb_tencent:hover {
+    background-position: 0px -60px;
+}
+.wx:hover {
+    background-position: 0px -30px;
+    *background-position: 0px -26px;
+}
+a.app_brides:hover {
+    background-position: 0px 0px;
+}
+.top_contact_login .login_register {
+    margin-top: 6px;
+}
+.top_contact_login a.dingyue_now{
+	display:block;
+	float:right;
+	width:149px;
+	height:115px;
+	margin-right:-25px;
+	margin-top:-45px;
+}
+.top_bottom .top_ad_bg{
+	height:55px;
+}
+.top_ad_column{
+	width:735px;
+	margin:0 auto;
+	height:35px;
+}
+.top_ad{
+	background:url(../img/img-index/background-hash.png) repeat #fff;
+	border-top:1px solid #f1f1f1;
+	border-bottom:1px solid #f1f1f1;
+	height:100px;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:99999;
+}
+
+.ad_out{
+	width:1045px;
+	margin:0 auto;
+}
+.ad_inside{
+	width:1045px;
+	height:100px;
+	overflow:hidden;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+}
+.top_ad img,.ad_2 img,.ad_3 img{
+	vertical-align:middle; 
+	margin-top: expression((100-this.height)/2);
+}
+
+.top_column{
+	height:36px;
+	line-height:36px;
+	text-align:center;
+}
+.top_column span,.top_column a{
+	display:inline-block;
+	font-size:12px;
+	text-align:center;
+}
+.top_column span{
+	color:#ff7f8a;
+	background:url(../img/img-index/special_bg.jpg) right 14px no-repeat;
+}
+.top_column a{
+	background:none;color:#000;
+}
+.top_column a:hover{
+	color:#ff7f8a;
+}
+
+
+
+/*jxCon start*/
+.jxCon{
+	width: 100%;
+	height: 1820px;
+	min-width: 1130px;
+}
+.jxConInner{
+	width: 1130px;
+	height: 1820px;
+	margin: auto;
+}
+.jxJczt-1{
+	width: 514px;
+	height: 30px;
+	background: url(../img/img-watchOut/jxWatchOutBg.jpg) no-repeat;
+	background-position: left;
+	margin-top: -20px;
+}
+.jxJczt-1 span{
+	display: inline-block;
+	line-height: 30px;
+	font-size: 12px;
+	color: white;
+}
+.jxWatchOut1{
+	margin-left: 28px;
+}
+.jxWatchOut2{
+	margin-left: 50px;
+}
+.jxWatchOut3{
+	margin-left: 50px;
+}
+.jxWatchOut4{
+	margin-left: 65px;
+}
+.jxJczt-2{
+	width: 1130px;
+	height: 50px;
+	border-top:2px solid black; 
+	margin-top: 10px;
+	border-bottom: 1px solid #dbdbdb;
+}
+.jxJczt-2 ul li{
+	float: left;
+	line-height: 50px;
+	padding: 0px 12px 0px 0px;
+	font-size: 12px;
+}
+.jxJczt-2 ul li:hover{
+	color: #e52385;
+	cursor: pointer;
+}
+.jxJcztList{
+	margin-left: 656px;
+}
+
+
+/*jxJczt-3*/
+.jxJczt-3{
+	width: 1130px;
+	height: 2000px;
+}
+.jxJczt-3Left{
+	width: 767px;
+	height: 2000px;
+	float: left;
+	margin-top: 40px;
+
+}
+.jxWatchOutTitle{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+.editor_msg{
+	text-align:center;
+	height:48px;
+	line-height:48px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.editor_msg span,.editor_msg img{
+	display:inline-block;
+	height:48px;
+	line-height:48px;
+	padding-right:12px;
+}
+.editor_name{
+	font-size:12px;
+	color:#888;
+}
+.editor_name:hover{
+	text-decoration:underline;
+}
+.expert_brides,.date,.resource{
+	color:#888;
+}
+.editor_msg span{
+	position:relative;
+	top:-18px;
+}
+.zhaiyao{
+	font-size:13px;
+	color:#888;
+	line-height:24px;
+	width:714px;
+	margin:0px auto 15px;
+	background:#f6f6f6;
+	text-align:left;
+	padding:5px;
+	padding-left:13px;
+}
+.jxWatchOutLast img{
+	vertical-align: middle;
+}
+.weddingChoose{
+	display: inline-block;
+	width: 90px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background: #f1f1f1;
+	border-radius: 15px;
+	font-size: 14px;
+}
+.jxWatchOutStop{
+	display: inline-block;
+	width: 44px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	border-radius: 15px;
+	background: #f1f1f1;
+}
+.jxWatchOutStop:hover,.weddingChoose:hover{
+	background: #e52385;
+	color: white;
+	cursor: pointer;
+}
+
+
+.jxJczt-3Right{
+	width: 354px;
+	height: 1192px;
+	float: right;
+	margin-top: 37px;
+}
+.jxJcztRightCon{
+	width: 354px;
+	height: 277px;
+	background: url(../img/img-jczt/jxJcztRight-1.jpg) no-repeat;
+	background-size: cover;
+}
+
+
+
+
+.lvHappyTj{
+	width:316px;
+	height:509px;
+	background:url('../img/img_my/lvChbgvs.jpg') no-repeat;
+	margin:44px auto;
+	overflow: hidde
+}
+.lvHappyText{
+	width:234px;
+	height:23px;
+	margin:6px auto;
+	border-bottom: 1px solid #1b1b1b;
+}
+.lvJc{
+	text-align: center;
+	font-size:20px;
+	color:#070707;
+}
+.lvJc>span{
+	font-weight: bold;
+}
+.lvHappyImg{
+	width:204px;
+	height:204px;
+	border:1px solid #b5b5b5;
+	margin:27px auto;
+
+}
+.lvHappyImg img{
+	width:200px;
+	height:200px;
+	margin:2px 2px 2px 2px;
+}
+.lvBld{
+	color:#454343;
+	font-size:12px;
+	text-align: center;
+	padding-top:-10px;
+}
+.lvOls{
+	width:281px;
+	height:36px;
+	border-bottom:1px solid #e8e8e2;
+	margin:20px auto;
+}
+.lvOls p{
+	font-size:12px;
+	color:#454343;
+}
+.lvOls p>span{
+	color:#323232;
+	font-family:'黑体 微软雅黑';
+}
+.lvXks{
+	width:302px;
+	height:304px;
+	border:7px solid #e9e9e9;
+	margin:auto;
+}
+
+.lvOls{
+	width:283px;
+	height:186px;
+	margin:20px auto;
+}
+.lvOls ul li{
+	font-size:12px;
+	color:#454343;
+	border-bottom:1px solid #e8e8e2;
+	margin-bottom: 18px;
+}
+.lvOls ul li a{
+	font-size:12px;
+	color:#454343;
+}
+.lvOls ul li a:hover{
+	color: #e52385;
+}
+.lvOls ul li:nth-child(5){
+	border-bottom: none;
+}
+
+#lvXkBox{
+	width:302px;
+	height:45px;
+}
+.lvSjLeft{
+	width:151px;
+	height:45px;
+	background: #fff;
+	outline: none;
+	border:none;
+	font-size:12px;
+	border-right:2px solid #e9e9e9;
+	float: left;
+}
+.lvSjRight{
+	width:151px;
+	height:45px;
+	float:left;
+	background: #d6d6d6;
+	outline: none;
+	border:none;
+	border-left:2px solid #e9e9e9;
+	font-size:12px;
+}
+.lvBoxWrap{
+	width:302px;
+	height:359px;
+}
+.lvHidden{
+	width:302px;
+	height:359px;
+	display:none;
+}
+
+.lvShow{
+	width:302px;
+	height:359px;
+	display:block;
+}
+.lvHubA{
+	width:99px;
+	height:117px;
+	float: left;
+	margin-left:45px;
+	margin-top:10px;
+}
+.lvHubA>img{
+  width:99px;
+  height:95px;
+}
+.lvBaby{
+	font-size:12px;
+	color:#595959;
+	text-align: center;
+}
+.lvHubB{
+	width:99px;
+	height:117px;
+	float: left;
+	margin-left:20px;
+	margin-top:10px;
+}
+.lvHubB>img{
+  width:99px;
+  height:95px;
+}
+.lvLeftBtn{
+	position:absolute;
+	top:115px;
+	left:8px;
+	cursor: pointer;
+}
+#lvHidden{
+	position: relative;
+}
+.lvRightBtn{
+	position:absolute;
+	top:115px;
+	right:8px;
+	cursor: pointer;
+}
+.lvHubC{
+	width:99px;
+	height:117px;
+	margin:25px 0 0 94px;
+}
+.lvHubC>img{
+  width:99px;
+  height:95px;
+}
+.lvHuD>p{
+	width: 252px;
+    margin: 23px auto;
+    text-align: left;
+    line-height: 18px;
+    color: #454343;
+    font-size: 12px;
+}
+
+
+
+
+::selection{
+	background: pink;
+};
+.lvAboutTj{
+	width:100%;
+	height:327px;
+}
+.lvAboutInner{
+	width:1130px;
+	margin:40px auto;
+}
+.lvAbout{
+	width:767px;
+	height:100%;
+	border-top:1px solid #e0e0e0;
+	position: relative;
+}
+.lvAbouts{
+	position: absolute;
+	top:-18px;
+	left:35%;
+}
+.lvGreat{
+	width:238px;
+	height:264px;
+	float:left;
+	margin-top:25px;
+	margin-left:6px;
+}
+.lvZf{
+	text-align: center;
+    padding-top: 5px;
+    font-size: 12px;
+    color: #323230;
+}
+.lvGree{
+	width:238px;
+	height:238px;
+}
+.lvGreatb{
+	width:238px;
+	height:264px;
+	float:left;
+	margin-top:25px;
+	margin-left:6px;
+	margin-left:18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*lvCon start*/
+.lvConInner{
+	width:1130px;
+	height:297px;
+    margin:auto;
+    border-top:1px solid #e1e1e1;
+}
+.lvCon{
+	width:100%;
+	height:297px;
+	position: relative;	
+	margin-top: 280px;
+}
+.lvConlx{
+    width:1119px;
+    height:272px;
+    margin:25px auto;
+}
+.lvBeautiful{
+	width:205px;
+	height:231px;
+	float:left;
+}
+.lvPl{
+	text-align: center;
+	font-size:14px;
+	padding-top:14px;
+}
+.lvBeautifulB{
+    width:205px;
+	height:231px;
+	float:left;
+	margin-left:23px;
+}
+.lvBeautifulB img{
+	width:205px;
+	height:205px;
+}
+.lvBgt{
+	background: url(../img/img-index/lvBgt.jpg) no-repeat;
+    width: 147px;
+    height: 34px;
+    margin: -48px auto;
+    z-index: 2;
+    left:44%;
+    top:0px;
+    position:absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+.lvFooter{
+	width:100%;
+	height:379px;
+	background:#4b4b4b;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.lvTopNode{
+	width:978px;
+	height:220px;
+	border-bottom:1px solid #a7a7a7;
+	margin:27px auto;
+}
+.lvTons{
+	width:100%;
+	height:62px;
+}
+.lvBull{
+	float:left;
+}
+.lvCd{
+	float:left;
+	margin-left:26px;
+	color:#f9f8f4;
+	font-size:12px;
+}
+.lvCen{
+	width:947px;
+	height:159px;
+	margin-left:4px;
+}
+.lvFotUl{
+	float:left;
+	margin-left:4px;
+}
+.lvFotUo{
+	float:left;
+	margin-left:55px;
+}
+.lvFotUl li{
+	font-size:12px;
+	padding-bottom:10px;
+}
+.lvFotUl li a{
+    color:#ffffff;
+}
+.lvFotUl li .lvJun{
+	color:#a0bac2;
+}
+
+.lvFotUo li{
+	font-size:12px;
+	padding-bottom:10px;
+}
+.lvFotUo li a{
+    color:#ffffff;
+}
+.lvFotUo li .lvJun{
+	color:#a0bac2;
+}
+
+.lvFotUz{
+	float:left;
+	margin-left:8px;
+}
+.lvFotUz li{
+	font-size:12px;
+	padding-bottom:10px;
+}
+.lvFotUz li a{
+    color:#ffffff;
+}
+.lvFotUz li .lvJun{
+	color:#a0bac2;
+}
+.lvFotUl li a:hover,.lvFotUo li a:hover{
+	color: #FAB3AC;
+}
+
+.lvFotUv{
+	float:left;
+	margin-left:35px;
+}
+.lvFotUv li{
+	font-size:12px;
+	padding-bottom:10px;
+}
+.lvFotUv li a{
+    color:#ffffff;
+}
+.lvFotUv li .lvJun{
+	color:#a0bac2;
+}
+
+/*lvTopNode end*/
+
+.lvBotNode{
+	width:851px;
+	height:98px;
+	margin:33px auto;
+}
+.lvBrides{
+	float:left;
+	font-size:30px;
+	color:#dcdcdc;
+	margin-top:18px;
+}
+.lvBotText{
+	float:left;
+	width:559px;
+	height:63px;
+	margin-left:118px;
+}
+.lvBotText>.lvBotOne>a{
+	color:#f3ffe2;
+	font-size:12px;
+	padding-left:3px;
+	display: inline-block;
+}
+.lvBotTwo{
+	color:#f3ffe2;
+	font-size:12px;
+	padding-left:3px;
+	cursor: pointer;
+	padding-top:5px;
+}
