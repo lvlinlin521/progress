@@ -21,7 +21,7 @@
 .lvHeaderInner>ul>li{
 	float:left;
 	line-height:37px;
-	margin:0 0 0 30px;
+	margin:0 30px 0 30px;
 	
 }
 .lvHeaderInner>ul>li>a{
@@ -661,20 +661,12 @@ a.app_brides:hover {
 	background: url(../img/img-index/lvBgt.jpg) no-repeat;
     width: 147px;
     height: 34px;
-    margin: -48px auto;
+    margin: -18px auto;
     z-index: 2;
     left:44%;
     top:0px;
     position:absolute;
 }
-
-
-
-
-
-
-
-
 
 
 

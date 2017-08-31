@@ -45,3 +45,34 @@
             aLi[i].style.border='';}
         aLi[num].style.border='2px solid #e10374';
     }
+
+
+var leftCount=document.querySelector('.leftCount');
+var rightCount=document.querySelector('.rightCount');
+var lvJtA=document.querySelector('#lvJtA');
+var lvJtB=document.querySelector('#lvJtB');
+lvJtA.onclick=function(){
+      num--;
+        if(num==-1){
+            num=arr.length-1;
+        }
+        oBig.src=arr[num];
+        for(var i=0;i<aLi.length;i++){
+            aLi[i].style.border='';}
+        aLi[num].style.border='2px solid #e10374'
+        leftCount.innerHTML=num;
+}
+
+lvJtB.onclick=function(){
+      num++;
+        if(num==arr.length){ 
+            num=0;
+        }
+        oBig.src=arr[num];
+        for(var i=0;i<aLi.length;i++){
+            aLi[i].style.border='';
+        }
+        aLi[num].style.border='2px solid #e10374';
+        leftCount.innerHTML=num;
+
+}

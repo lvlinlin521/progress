@@ -610,15 +610,6 @@ a.app_brides:hover {
 
 
 
-
-
-
-
-
-
-
-
-
 /*lvCon start*/
 .lvConInner{
 	width:1130px;
@@ -658,10 +649,10 @@ a.app_brides:hover {
 	height:205px;
 }
 .lvBgt{
-	background: url(../img/img-index/lvBgt.jpg) no-repeat;
+	background: url(../img/img_my/lvBgt.jpg) no-repeat;
     width: 147px;
     height: 34px;
-    margin: -48px auto;
+    margin: -18px auto;
     z-index: 2;
     left:44%;
     top:0px;

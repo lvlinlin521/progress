@@ -8,6 +8,7 @@
 	height:40px;
 	background:#414141;
 	border-bottom: 1px solid #8d8d8d;
+
 }
 .lvHeaderInner{
 	width:1176px;
@@ -21,7 +22,7 @@
 .lvHeaderInner>ul>li{
 	float:left;
 	line-height:37px;
-	margin:0 30px 0 30px;	
+	margin:0 20px 0 30px;	
 }
 .lvHeaderInner>ul>li>a{
 	color:#fff;
